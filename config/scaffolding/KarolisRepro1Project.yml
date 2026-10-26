@@ -20,3 +20,7 @@ services:
     version: "1.0"
   - name: KarolisRepro3
     version: "1.0"
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1315
