@@ -45,15 +45,28 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">karolis@ibm.com</value>
-    <value name="createdDate">2026-10-26T15:47:11.775822308Z</value>
-    <value name="lastModifiedDate">2026-10-26T15:47:11.775822308Z</value>
+    <value name="lastModifiedBy">karolis@ibm.com</value>
+    <value name="lastModifiedDate">2026-10-26T15:47:22.721317730Z</value>
     <value name="displayName">stuff</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <null name="name"/>
+        <value name="itemType">SERVICES</value>
+        <record name="serviceInfo" javaclass="com.wm.util.Values">
+          <value name="groupDisplayName">GlobalVariable</value>
+          <value name="groupName">globalVariable</value>
+          <null name="services"/>
+        </record>
+        <record name="serviceName" javaclass="com.wm.util.Values">
+          <value name="transformerSupport">true</value>
+          <value name="displayName">getGlobalVariable</value>
+          <value name="serviceName">pub.globalVariable:getGlobalVariable</value>
+          <Boolean name="enabled">true</Boolean>
+          <double name="rank" type="Double">0.03</double>
+        </record>
+        <null name="outputMapSet"/>
+        <null name="mapSet"/>
       </record>
     </record>
     <value name="modifiedBy">karolis@ibm.com</value>
