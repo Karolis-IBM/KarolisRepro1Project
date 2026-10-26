@@ -2,6 +2,11 @@ version: "1.0"
 info:
   model: int-scaffold
 packages:
+- name: KarolisRepro3
+  gitServerName: KarolisSSS
+  gitUrl: https://github.com/Karolis-IBM
+  gitUsername: Karolis-IBM
+  gitBranch: main
 - name: KarolisRepro1Project
   gitServerName: KarolisSSS
   gitUrl: https://github.com/Karolis-IBM
