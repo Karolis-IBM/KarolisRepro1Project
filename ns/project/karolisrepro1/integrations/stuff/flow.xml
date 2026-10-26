@@ -8,4 +8,8 @@
 <INVOKE NAME="GlobalVariable" SERVICE="pub.globalVariable:getGlobalVariable">
   <COMMENT></COMMENT>
 </INVOKE>
+
+<SEQUENCE NAME="NEW" EXIT-ON="FAILURE">
+  <COMMENT></COMMENT>
+</SEQUENCE>
 </FLOW>
